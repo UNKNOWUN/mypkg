@@ -1,20 +1,38 @@
-#!/usr/bin/env python3
-
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int16
-
+from person_msgs.srv import Query  # ★ サービス型をインポート
 
 rclpy.init()
 node = Node("listener")
 
 
-def cb(msg):
-    global node
-    node.get_logger().info("Listen: %d" % msg.data)
-
-
 def main():
-    pub = node.create_subscription(Int16, "countup", cb, 10)
-    rclpy.spin(node)
+    # サービスのクライアントを作成
+    client = node.create_client(Query, "query")
+
+    # サービスが立ち上がるまで待つ
+    while not client.wait_for_service(timeout_sec=1.0):
+        node.get_logger().info("待機中")
+
+    # リクエスト作成
+    req = Query.Request()
+    req.name = "上田隆一"
+
+    # 非同期でサービス呼び出し
+    future = client.call_async(req)
+
+    # 結果が返ってくるまで 1 回ずつ spin
+    while rclpy.ok():
+        rclpy.spin_once(node)
+        if future.done():
+            try:
+                response = future.result()
+            except Exception:
+                node.get_logger().info("呼び出し失敗")
+            else:
+                node.get_logger().info(f"age: {response.age}")
+            break
+
+    node.destroy_node()
+    rclpy.shutdown()
 

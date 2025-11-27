@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000923] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.001125] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.098490] (-) TimerEvent: {}
+[0.199295] (-) TimerEvent: {}
+[0.300057] (-) TimerEvent: {}
+[0.400929] (-) TimerEvent: {}
+[0.501673] (-) TimerEvent: {}
+[0.602403] (-) TimerEvent: {}
+[0.703191] (-) TimerEvent: {}
+[0.786671] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--record', '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg', 'env': {'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'unknown', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'CONDA_BACKUP_QT_XCB_GL_INTEGRATION': '', 'HOME': '/home/unknown', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/launch', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/unknown/ros2_setup_scripts/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'unknown', 'NAME': 'pR', 'WSL_INTEROP': '/run/WSL/96972_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/unknown/anaconda3/bin:/home/unknown/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/w64devkit/bin:/mnt/c/Users/xming/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/xming/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/xming/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xming/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'QT_XCB_GL_INTEGRATION': 'none', 'GSETTINGS_SCHEMA_DIR': '/home/unknown/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/unknown/ros2_setup_scripts/ros2_ws/install/mypkg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/unknown/anaconda3/bin/python', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', 'PWD': '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg', 'CONDA_EXE': '/home/unknown/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:/home/unknown/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/unknown/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.803371] (-) TimerEvent: {}
+[0.903999] (-) TimerEvent: {}
+[1.004838] (-) TimerEvent: {}
+[1.100494] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.100985] (mypkg) StdoutLine: {'line': b'creating build/mypkg/mypkg.egg-info\n'}
+[1.101552] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.102270] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.102370] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.103100] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.103272] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.103525] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.104935] (-) TimerEvent: {}
+[1.107783] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.108529] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.109190] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.110065] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.110252] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build\n'}
+[1.110311] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib\n'}
+[1.110357] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.110684] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.110831] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.110896] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.111154] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.111534] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.112336] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[1.112589] (mypkg) StdoutLine: {'line': b'copying /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[1.112752] (mypkg) StdoutLine: {'line': b'copying /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[1.112962] (mypkg) StdoutLine: {'line': b'copying /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[1.113615] (mypkg) StdoutLine: {'line': b'byte-compiling /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.114028] (mypkg) StdoutLine: {'line': b'byte-compiling /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc\n'}
+[1.114320] (mypkg) StdoutLine: {'line': b'byte-compiling /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc\n'}
+[1.114583] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.114757] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/share/ament_index\n'}
+[1.115049] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index\n'}
+[1.115329] (mypkg) StdoutLine: {'line': b'creating /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.115604] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.115701] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[1.115760] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[1.115937] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.117853] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[1.122090] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.148464] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[1.149159] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[1.149709] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/unknown/ros2_setup_scripts/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[1.188395] (mypkg) CommandEnded: {'returncode': 0}
+[1.206004] (-) TimerEvent: {}
+[1.207928] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.209680] (-) EventReactorShutdown: {}
